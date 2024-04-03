@@ -34,4 +34,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Run MySql in docker
-docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=12564dax1Eg -d mysql:latest
+
+docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=12564dax1Eg -d -p 3306:3306 mysql:latest
