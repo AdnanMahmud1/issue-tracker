@@ -1,0 +1,6 @@
+{
+  "codeium.enableInComments": false,
+  "codeium.enableConfig": {
+    "*": true
+  }
+}
